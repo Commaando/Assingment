@@ -1,10 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {HomeView} from './src/swipingModal';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 const App = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Start here</Text>
-    </View>
+    <GestureHandlerRootView style={{flex: 1}}>
+      <HomeView />
+    </GestureHandlerRootView>
   );
 };
 export default App;
