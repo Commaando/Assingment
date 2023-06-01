@@ -1,1 +1,2 @@
-export * from './HomeView2'
+export * from './CircularTabView'
+export * from './CircularTabView2'
