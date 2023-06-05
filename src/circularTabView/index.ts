@@ -1,1 +1,1 @@
-export * from './HomeView2'
+export * from './HomeView'
